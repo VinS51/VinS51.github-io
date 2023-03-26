@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Accueil Vin'S</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <script>
+    function openNav() {
+        document.getElementById("sideNavigation").style.width = "250px";
+        document.getElementById("main").style.marginRight = "250px";
+    }
+    function closeNav() {
+        document.getElementById("sideNavigation").style.width = "0";
+        document.getElementById("main").style.marginRight = "0";
+    }
+    </script>
+          <div class="logo1">
+            <a href="index.html">Vin'S<at> Moniteur prestataire</at></a>
+          </div>
+  <div id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <b href="index.html">Accueil</b>
+    <a href="avis.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Se connecter</a>
+  </div>
+
+  <nav class="topnav">
+    <a href="#" onclick="openNav()">
+      <svg width="30" height="30" id="icoOpen">
+          <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+      </svg>
+    </a>
+  </nav>
+  <div id="main">
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <a href="index.html">Vin'S<at> Moniteur prestataire</at></a>
+      </div>
+      <ul>
+        <li><b href="index.html">Accueil</b></li>
+        <li><a href="avis.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Se connecter</a></li>
+      </ul>
+     </nav>
+
+    <div class="content">
+      <h2><d>Bonjour, </h2>
+      <input type="checkbox" id="expanded">
+      <p>Moniteur indépendant pour le compte exclusif des auto-écoles. Avec plus de 10 ans d'expérience concluante dans le domaine .Je mets toutes mes compétences en œuvre afin que les élèves aboutissent à la réussite de l'examen du permis de conduire mais aussi et surtout leur prodiguer de précieux conseils afin qu'ils deviennent de futurs conducteurs sûrs, responsables et courtois. Je propose 2 types de prestations : enseignement dispensé avec un véhicule appartenant à votre établissement de conduite ou enseignement avec mon propre véhicule, double commandes et homologué. Je dispose d'un contrat de prestation élaboré par un avocat spécialiste.</p>
+      <label for="expanded" role="button">Voir plus</label>
+      <div class="check">
+      <label for="expanded" role="button">Voir moins</label>
+    </div>
+  </div>
+</div>
+    <div class="link">
+      <a href="contact.html" class="hire">Me contacter</a>
+    </div>
+</body>
+</html>
